@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bundle-Description: This is the Mojio binding of the open Home Automat
+ ion Bus (openHAB)
+Bundle-License: http://www.eclipse.org/legal/epl-v10.html
+Bundle-SymbolicName: org.openhab.binding.mojio
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: openHAB.org
+Bundle-DocURL: http://www.openhab.org
+Import-Package: com.google.common.base,com.google.common.io,org.apache
+ .commons.httpclient,org.apache.commons.httpclient.util,org.apache.com
+ mons.lang,org.apache.commons.lang.builder,org.apache.commons.logging,
+ org.codehaus.jackson,org.codehaus.jackson.annotate,org.codehaus.jacks
+ on.map,org.codehaus.jackson.map.annotate,org.openhab.binding.mojio,or
+ g.openhab.core.binding,org.openhab.core.events,org.openhab.core.items
+ ,org.openhab.core.library.items,org.openhab.core.library.types,org.op
+ enhab.core.types,org.openhab.io.net.http,org.openhab.model.item.bindi
+ ng,org.osgi.framework,org.osgi.service.cm,org.osgi.service.component,
+ org.osgi.service.event,org.slf4j
+Service-Component: OSGI-INF/binding.xml, OSGI-INF/genericbindingprovid
+ er.xml
+Export-Package: org.openhab.binding.mojio
+Bundle-Name: openHAB Mojio Binding
+Bundle-Version: 1.8.0
+Bundle-ClassPath: .
+Private-Package: org.openhab.binding.mojio.internal
+Ignore-Package: org.openhab.binding.mojio.internal
+
